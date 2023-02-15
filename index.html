@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação de Mentoria</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+   <div class="hero">
+      <h1>AVALIE A SUA MENTORIA</h1>
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+      <img src="./images/img1.svg" alt="">
+    </div>
+    <h2>INFORMAÇÕES PESSOAIS</h2>
+  </header>
+
+  <main>
+    <form action="">
+      <fieldset>
+        <div class="info-group">
+          <div class="input-info">
+            <label for="name">Nome</label>
+            <input  id="name" type="text">
+          </div>
+
+          <div class="input-info">
+            <label for="surname">Sobrenome</label>
+            <input id="surname" type="text">
+          </div>
+
+        </div>
+        
+        <div class="input-mail">
+          <label for="email">Email<span> (digite um email válido)</span></label>
+          <input id="email" type="email">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <h3>INFORMAÇÕES DO MENTOR</h3>
+        <hr/>
+
+        <div class="input-mentor">
+          <label for="mentor">Selecione quem foi o seu mentor</label>
+          <input id="mentor" type="text">
+        </div>
+
+        <div class="input-feedback">
+          <label for="feedback">Feedback sobre o mentor</label>
+          <input id="feedback" type="text">
+        </div>
+
+        <input id="doubts" type="checkbox"> <label for="doubts">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+
+      </fieldset>
+
+      <fieldset>
+        <h3>AGENDANDO PRÓXIMA MENTORIA</h3>
+        <hr/>
+
+        <div class="info-group-two">
+          <div class="input-time">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <input  id="date" type="date">
+          </div>
+
+          <div class="input-time">
+            <label for="begin-time">Das</label>
+            <input id="begin-time" type="time">
+          </div>
+
+          <div class="input-time">
+            <label for="end-time">Até</label>
+            <input id="end-time" type="time">
+          </div>
+        </div>
+
+      </fieldset>
+
+      <button>SALVAR</button>
+    </form>
+  </main>
+
+</body>
+</html>
